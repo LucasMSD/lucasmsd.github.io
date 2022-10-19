@@ -9,7 +9,8 @@
     <script src='main.js'></script>
 </head>
 <body>
-    
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v15.0&appId=1251999355592712&autoLogAppEvents=1" nonce="8CTTzbjM"></script>
 <fb:login-button 
   scope="public_profile,email"
   onlogin="checkLoginState();">
@@ -42,5 +43,6 @@ function checkLoginState() {
   });
 }
 </script>
+    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
 </body>
 </html>
